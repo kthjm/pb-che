@@ -1,0 +1,20 @@
+{
+   "name": "{name}",
+   "version": "0.0.0",
+   "repository": "https://github.com/kthjm/{name}",
+   "author": "kthjm <toxictoxer@gmail.com>",
+   "license": "MIT",
+   "prettier": {
+      "tabWidth": 3,
+      "semi": false,
+      "singleQuote": true
+   },
+   "scripts": {
+      "format": "prettier --write **/*.js package.json",
+      "deploy": "node node_modules/chenv/chenv.js deploy app -p"
+   },
+   "devDependencies": {
+      "chenv": "^0.0.7",
+      "prettier": "^1.7.0"
+   }
+}

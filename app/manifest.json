@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "icons": {
+    "16": "./icons/16.png",
+    "48": "./icons/128.png",
+    "128": "./icons/128.png"
+  },
+  "permissions": [],
+  "content_security_policy": "",
+  "options_page": "",
+  "web_accessible_resources": [],
+  "background": {
+    "scripts": [],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "./icons/16.png",
+    "default_title": ""
+  },
+  "author": "kthjm",
+  "content_scripts": [{
+    "matches": [],
+    "js": [],
+    "run_at": "document_end"
+  }]
+}
